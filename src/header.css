@@ -1,0 +1,46 @@
+header {
+  height: 80px;
+  background: #7159c1;
+  color: #fff;
+  border-radius: 0px 0px 30px 30px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding: 4px 12px;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
+
+.maior {
+  display: flex;
+  flex: 0 1 70%;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  font-family: 'Nunito';
+  transition: all ease 0.2s;
+}
+
+a:hover {
+  color: #cdcdcd;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  flex: 1;
+  justify-content: space-around;
+}
+
+.menor {
+  display: flex;
+  flex: 0 1 30%;
+}
