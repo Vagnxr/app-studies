@@ -15,8 +15,6 @@ export const Home = () => {
   };
 
 
-  
-
   const handleMap = (prop) => {
     return <Cards title={prop.nome} describe={prop.descricao} />;
   };
