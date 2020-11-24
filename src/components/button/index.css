@@ -1,0 +1,14 @@
+.styled-button {
+  outline: 0;
+  border: 0;
+  background: #7159c1;
+  padding: 1rem 1.6rem;
+  margin: 1rem;
+  border-radius: 4px;
+  transition: all ease 0.2s;
+  color: #fff;
+}
+
+.styled-button:hover {
+  filter: brightness(90%);
+}
